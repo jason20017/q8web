@@ -1,0 +1,28 @@
+.sideBar-container{
+    background-color: rgb(41, 39, 39);
+    width: 9rem;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    .side-button{
+        border:1px solid blue !important;
+        height:9rem;
+        padding:1.5rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width:4rem;
+            
+        }
+        span{
+            
+            color:white;
+            font-size: 14px;
+        }
+    }
+    .side-button:hover{
+        cursor: pointer;
+    }
+}

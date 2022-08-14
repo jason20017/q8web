@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.test {
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.app .app_layer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.nav-container {
+  background-color: #80BC00;
+}
+
+.nav-container .nav-logo-box {
+  position: relative;
+  max-width: 17%;
+  padding: 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .nav-logo-box img {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.sideBar-container {
+  background-color: #292727;
+  width: 9rem;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sideBar-container .side-button {
+  border: 1px solid blue !important;
+  height: 9rem;
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sideBar-container .side-button img {
+  width: 4rem;
+}
+
+.sideBar-container .side-button span {
+  color: white;
+  font-size: 14px;
+}
+
+.sideBar-container .side-button:hover {
+  cursor: pointer;
+}
+
+.treeButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.treeButton .btn_All {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  width: 4rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  margin: 0 1.5rem 0 1rem;
+}
+
+.treeButton .btn_Default {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 20px;
+}
+
+.treeButton .btn_Add {
+  margin-left: 1.2rem;
+}
+
+.tree_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tree_item .icon, .tree_item .edit, .tree_item .checkEdit {
+  margin-left: 6px;
+  margin-right: 6px;
+  max-width: 20px;
+  max-height: 20px;
+  cursor: pointer;
+}
+
+.tree_item .edit:active, .tree_item .checkEdit:active {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

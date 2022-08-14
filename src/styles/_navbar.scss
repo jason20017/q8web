@@ -1,0 +1,15 @@
+.nav-container{
+    background-color: #80BC00;
+    .nav-logo-box{
+        position: relative;
+        max-width: 17%;
+        padding: 1.5rem 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-width: 15rem;
+            max-height: 15rem;
+        }
+    }
+}
